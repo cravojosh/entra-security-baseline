@@ -1,0 +1,47 @@
+[
+    {
+        "DisplayName": "John Smith",
+        "UserPrincipalName": "john@example.com",
+        "AccountEnabled": true,
+        "IsGlobalAdmin": true,
+        "MFARegistered": true,
+        "UserType": "Member",
+        "LastSignInDays": 5
+    },
+    {
+        "DisplayName": "Jane Doe",
+        "UserPrincipalName": "jane@example.com",
+        "AccountEnabled": true,
+        "IsGlobalAdmin": true,
+        "MFARegistered": false,
+        "UserType": "Member",
+        "LastSignInDays": 10
+    },
+    {
+        "DisplayName": "Bob Admin",
+        "UserPrincipalName": "bob@example.com",
+        "AccountEnabled": true,
+        "IsGlobalAdmin": true,
+        "MFARegistered": true,
+        "UserType": "Member",
+        "LastSignInDays": 15
+    },
+    {
+        "DisplayName": "Old Consultant",
+        "UserPrincipalName": "consultant_example.com",
+        "AccountEnabled": true,
+        "IsGlobalAdmin": false,
+        "MFARegistered": true,
+        "UserType": "Guest",
+        "LastSignInDays": 180
+    },
+    {
+        "DisplayName": "Active Guest",
+        "UserPrincipalName": "vendor_example.com",
+        "AccountEnabled": true,
+        "IsGlobalAdmin": false,
+        "MFARegistered": true,
+        "UserType": "Guest",
+        "LastSignInDays": 10
+    }
+]
