@@ -36,7 +36,7 @@ Security Score
 
 ## Data Sources
 
-Due to lack of M365 Tenant for testing this proof of concept uses simulated JSON data.
+Due to lack of M365 Tenant for testing, this proof of concept uses simulated JSON data.
 
 A production environment would likely use Microsoft Graph API queries to pull real world data.
 
