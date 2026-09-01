@@ -25,13 +25,13 @@ This project demonstrates how a security baseline scanner can:
 ## Architecture
 
 Mock Entra Data
-        ↓
+        ->
 PowerShell Scanner
-        ↓
+        ->
 Security Checks
-        ↓
+        ->
 PASS / WARN / FAIL
-        ↓
+        ->
 Security Score
 
 ## Data Sources
