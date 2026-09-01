@@ -1,4 +1,7 @@
-# Loading mock Entra data, real world would use MS Graph with *.read.all Scope for User,Directory,Policy and AuditLog permissions to run
+# Loading mock Entra data.
+# In a production enviroment data would be obtained via
+# Microsoft Graph connection using read-only permissions such as
+# User.Read.All, Directory.Read.All, Policy.Read.All, and AuditLog.Read.All
 
 $Users = Get-Content ".\MockData\users.json" | ConvertFrom-Json
 $ConditionalAccess = Get-Content ".\MockData\conditionalAccess.json" | ConvertFrom-Json
