@@ -1,0 +1,12 @@
+[
+    {
+        "DisplayName": "Require MFA",
+        "State": "enabled",
+        "RequiresMFA": true
+    },
+    {
+        "DisplayName": "Block Legacy Authentication",
+        "State": "disabled",
+        "BlocksLegacyAuth": true
+    }
+]
